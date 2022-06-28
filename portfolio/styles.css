@@ -1,3 +1,10 @@
 /* font-family: 'Grape Nuts', cursive;
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+}
