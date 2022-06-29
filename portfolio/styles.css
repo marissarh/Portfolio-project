@@ -69,28 +69,26 @@ p {
 .projection-description {
   padding: 120px 60px;
 }
-.about-section {
+.content-container {
   text-align: center;
   padding: 0px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 45px;
   line-height: 80px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-content {
+.content {
   margin: 45px;
 }
 .about-section img {
-  max-width: 100%;
-  height: auto;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
+  visibility: visible;
+  min-width: 448px;
+  width: 448px;
+  box-sizing: initial;
 }
 
 @media (max-width: 900px) {
