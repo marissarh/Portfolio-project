@@ -27,6 +27,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 
 p {
   font-weight: normal;
@@ -125,6 +128,37 @@ nav a:hover,
 nav li:active a {
   color: var(--branding-color);
 }
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  line-height: 27px;
+  border-radius: 10px;
+  margin: 30px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  padding-top: 20px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 24px;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -144,5 +178,8 @@ nav li:active a {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
