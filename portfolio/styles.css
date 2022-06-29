@@ -125,7 +125,7 @@ nav a {
   font-size: small;
 }
 nav a:hover,
-nav li a:active {
+nav li.active a {
   color: var(--branding-color);
 }
 footer .contact-box {
